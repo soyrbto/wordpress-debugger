@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "wordpress Debugger y ST",
+  "version": "0.1",
+  "description": "debug information console in the browser for wordpress",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/border-16.png",
+      "48": "icons/border-48.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
